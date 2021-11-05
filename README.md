@@ -1,6 +1,6 @@
 # PWA News
 
-![](https://github.com/Henrickqt/pwa-news/blob/main/assets/screen.png)
+![](https://github.com/Henrickqt/pwa-news/blob/master/assets/screen.png)
 
 This project is a news page, just like Forbes and NY Times. It was developed in RectJS and uses the concepts of Progressive Web Application (PWA).
 
@@ -61,3 +61,9 @@ $ npm start
 ```
 
 The app will be available in your browser at the address http://localhost:3000/.
+
+To test the cache, enable offline mode in DevTools. If you need to clear the cache, run the following command from the DevTools console:
+
+```bash
+caches.delete('pwa-news');
+```
